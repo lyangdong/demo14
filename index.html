@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-1.12.4.min.js"></script>
+
+    <script src="public.js"></script>
+    <style>
+        li{
+            list-style: none;
+            float: left;
+            margin-right: 50px;
+            position: relative;
+        }
+        li img{
+            width: 300px;
+            height: 150px;
+
+        }
+        span{
+            height: 150px;
+            background: rgba(10,10,10,0.5);
+            position: absolute;
+            z-index: 10;
+        }
+        i{
+            height: 40px;
+            width: 40px;
+            border: 5px solid white;
+            border-radius: 50%;
+            position: absolute;
+            left: calc(50% - 35px);
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button type="button">左</button>
+        <button type="button">中</button>
+
+    </div>
+    <div class="img-list">
+        <ul class="">
+            <li class="item1"><span><i></i></span><img src="images/banner1.jpg" alt=""/></li>
+            <li class="item2"><span><i></i></span><img src="images/banner2.jpg" alt=""/></li>
+            <li class="item3"><span><i></i></span><img src="images/banner3.jpg" alt=""/></li>
+            <li class="item4"><span><i></i></span><img src="images/banner4.jpg" alt=""/></li>
+        </ul>
+    </div>
+</body>
+<script>
+
+</script>
+</html>
