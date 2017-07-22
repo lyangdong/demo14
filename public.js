@@ -1,6 +1,4 @@
-/**
- * Created by liu on 2016/7/16.
- */
+
 
 $(function (){
     $('button').eq(0).click(function(){
